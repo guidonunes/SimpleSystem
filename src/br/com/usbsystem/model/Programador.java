@@ -6,8 +6,8 @@ public class Programador extends Funcionario {
 
     public Programador(){}
 
-    public Programdor(String nome, String cpf, Endereco endereco, double salarioFixo, int ramal ) {
-        super(nome, endereco, salarioFixo);
+    public Programador(String nome, String cpf, Endereco endereco, double salarioFixo, int ramal ) {
+        super(nome, cpf, endereco, salarioFixo);
         this.ramal = ramal;
     }
 
