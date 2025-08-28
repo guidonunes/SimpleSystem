@@ -4,7 +4,9 @@ public class Programador extends Funcionario {
 
     public int ramal;
 
-    public Programador(){}
+    public Programador(){
+        super();
+    }
 
     public Programador(String nome, String cpf, Endereco endereco, double salarioFixo, int ramal ) {
         super(nome, cpf, endereco, salarioFixo);
